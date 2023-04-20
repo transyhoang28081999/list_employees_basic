@@ -1,6 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.footer{
+.footer {
     position: absolute;
     text-align: center;
     color: white;
@@ -8,4 +8,12 @@
     height: 50px;
     padding-top: 10px;
     background-color: black;
+}
+
+._button {
+    margin-left: 10px;
+}
+
+._add {
+    margin: 10px;
 }

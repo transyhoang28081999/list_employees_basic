@@ -6,7 +6,7 @@ class EmployeeService{
     getAllEmployees(){
         return axios.get(EMPLOYEE_BASE_URL);
     }
-    getSingleEMployee(id){
+    getSingleEmployee(id){
         return axios.get(EMPLOYEE_BASE_URL + "/" + id);
     }
     createEmployee(employee){
